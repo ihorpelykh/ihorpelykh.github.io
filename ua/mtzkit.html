@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>IhorPelykh - МтЗКІТ</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/MtZKIT.css">
+    </head>
+    <body>
+        <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">IhorPelykh</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="unavailable.html">-_-</a></li>
+                    <li><a href="mtzkit.html">МтЗКІТ</a></li>
+                    <li><a href="games.html">Ігри</a></li>
+                    <li><a href="https://ihorpelykh.github.io/">Змінити мову</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+
+    <div class="container-2">
+        <div style="background-color: orange;" class="frame">
+            <div class="frame-text">09.02.2023</div>
+            <table>
+                <tr>
+                    <td class="frame-text-left">Створення найпростішого HTML документа</td>
+                    <td class="frame-text-right">Відкрити перегляд сторінки:
+                        <div><a href="mtzkit/02-09-2023.html" class="btn">Відкрити</a></div>
+                    </td>
+                </tr>
+            </table>
+            </br>
+            <table>
+                <tr>
+                    <td class="frame-text-left"><img class="photo" src="img/09-02-2023.png" alt="">
+                    </td>
+                    <td class="frame-text-right">Завантажити код:
+                        <div><a href="https://drive.google.com/uc?export=download&id=1Lh1W03h-gssl5eV9IkLVw3JgxiBvh56y" class="btn">index.html</a></div>
+                        </br>
+                        <div><a href="https://drive.google.com/uc?export=download&id=1hAWGnHKEaRe-IeEzMU9SYCCPHe4GNKqx" class="btn">index.txt</a></div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
+
+<!-- Функція, яка використовується для зменшення панелі навігації, видаляючи відступи та додаючи чорний фон -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>IhorPelykh - Недоступно</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/unavailable.css">
+	</head>
+	<body>
+		<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">IhorPelykh</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="unavailable.html">-_-</a></li>
+                    <li><a href="MtZKIT.html">МтЗКІТ</a></li>
+                    <li><a href="games.html">Ігри</a></li>
+                    <li><a href="https://ihorpelykh.github.io/">Змінити мову</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+
+    <p class="text">Ця сторінка недоступна :(
+    </p>
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
+
+<!-- Функція, яка використовується для зменшення панелі навігації, видаляючи відступи та додаючи чорний фон -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+	</body>
+</html>
