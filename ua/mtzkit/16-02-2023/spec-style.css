@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
+
+
+
+body {
+  background-image: url(background.jpg);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.border {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+      
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.navbar-logo a {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin: 0 10px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* font-family */
+.lora {
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 18px;
+}
+
+
+.pt-serif {
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 18px;
+}
+
+.tenor-sans-1 {
+  font-family: 'Tenor Sans', sans-serif;
+  color: White;
+  font-size: 30px;
+}
+
+.tenor-sans-2 {
+  font-family: 'Tenor Sans', sans-serif;
+  color: White;
+  font-size: 25px;
+}
+
+/* Список */
+.li-black {
+  color: black;
+}
